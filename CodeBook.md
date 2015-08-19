@@ -70,7 +70,7 @@ Following the variable name groupings in the original features_info.txt file, be
 
 - tBodyLinearJerkMagnitude[_Mean *or* _Std] : Time domain body linear jerk combined 3-dimensional signal magnitude [mean *or* standard deviation]
 
-tBodyAngularVelocityMagnitude[_Mean *or* _Std] : Time domain body  angular velocity combined 3-dimensional signal magnitude [mean *or* standard deviation]
+- tBodyAngularVelocityMagnitude[_Mean *or* _Std] : Time domain body  angular velocity combined 3-dimensional signal magnitude [mean *or* standard deviation]
 
 - tBodyAngularJerkMagnitude[_Mean *or* _Std] : Time domain body angular jerk combined 3-dimensional signal magnitude [mean *or* standard deviation]
 
