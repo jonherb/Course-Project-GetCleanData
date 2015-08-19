@@ -26,3 +26,4 @@ As the text file format does not provide easily viewable organization of the out
 
 Tidy <- read.table("tidy.txt", header = TRUE)
 View(Tidy)
+
