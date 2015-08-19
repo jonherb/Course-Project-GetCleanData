@@ -58,32 +58,32 @@ Following the variable name groupings in the original features_info.txt file, be
 
 - tGravityLinearAcceleration[_Mean *or* _Std][.X *or* .Y *or* .Z] : Time domain gravity linear acceleration signal [mean *or* standard deviation] along the [X *or* Y *or* Z] axis
 
-tBodyLinearJerk[_Mean *or* _Std][.X *or* .Y *or* .Z] : Time domain body linear jerk signal [mean *or* standard deviation] along the [X *or* Y *or* Z] axis
+- tBodyLinearJerk[_Mean *or* _Std][.X *or* .Y *or* .Z] : Time domain body linear jerk signal [mean *or* standard deviation] along the [X *or* Y *or* Z] axis
 
-tBodyAngularVelocity[_Mean *or* _Std][.X *or* .Y *or* .Z] : Time domain body angular velocity signal [mean *or* standard deviation] along the [X *or* Y *or* Z] axis
+- tBodyAngularVelocity[_Mean *or* _Std][.X *or* .Y *or* .Z] : Time domain body angular velocity signal [mean *or* standard deviation] along the [X *or* Y *or* Z] axis
 
-tBodyAngularJerk[_Mean *or* _Std][.X *or* .Y *or* .Z] : Time domain body angular jerk signal [mean *or* standard deviation] along the [X *or* Y *or* Z] axis
+- tBodyAngularJerk[_Mean *or* _Std][.X *or* .Y *or* .Z] : Time domain body angular jerk signal [mean *or* standard deviation] along the [X *or* Y *or* Z] axis
 
-tBodyLinearAccelerationMagnitude[_Mean *or* _Std] : Time domain body linear acceleration combined 3-dimensional signal magnitude [mean *or* standard deviation]
+- tBodyLinearAccelerationMagnitude[_Mean *or* _Std] : Time domain body linear acceleration combined 3-dimensional signal magnitude [mean *or* standard deviation]
 
-tGravityLinearAccelerationMagnitude[_Mean *or* _Std] : Time domain gravity linear acceleration combined 3-dimensional signal magnitude [mean *or* standard deviation]
+- tGravityLinearAccelerationMagnitude[_Mean *or* _Std] : Time domain gravity linear acceleration combined 3-dimensional signal magnitude [mean *or* standard deviation]
 
-tBodyLinearJerkMagnitude[_Mean *or* _Std] : Time domain body linear jerk combined 3-dimensional signal magnitude [mean *or* standard deviation]
+- tBodyLinearJerkMagnitude[_Mean *or* _Std] : Time domain body linear jerk combined 3-dimensional signal magnitude [mean *or* standard deviation]
 
 tBodyAngularVelocityMagnitude[_Mean *or* _Std] : Time domain body  angular velocity combined 3-dimensional signal magnitude [mean *or* standard deviation]
 
-tBodyAngularJerkMagnitude[_Mean *or* _Std] : Time domain body angular jerk combined 3-dimensional signal magnitude [mean *or* standard deviation]
+- tBodyAngularJerkMagnitude[_Mean *or* _Std] : Time domain body angular jerk combined 3-dimensional signal magnitude [mean *or* standard deviation]
 
-fBodyLinearAcceleration[_Mean *or* _Std][.X *or* .Y *or* .Z] : Frequency domain body linear acceleration signal [mean *or* standard deviation] along the [X *or* Y *or* Z] axis
+- fBodyLinearAcceleration[_Mean *or* _Std][.X *or* .Y *or* .Z] : Frequency domain body linear acceleration signal [mean *or* standard deviation] along the [X *or* Y *or* Z] axis
 
-fBodyLinearJerk[_Mean *or* _Std][.X *or* .Y *or* .Z] : Frequency domain body linear jerk signal [mean *or* standard deviation] along the [X *or* Y *or* Z] axis
+- fBodyLinearJerk[_Mean *or* _Std][.X *or* .Y *or* .Z] : Frequency domain body linear jerk signal [mean *or* standard deviation] along the [X *or* Y *or* Z] axis
 
-fBodyAngularVelocity[_Mean *or* _Std][.X *or* .Y *or* .Z] : Frequency domain body angular velocity signal [mean *or* standard deviation] along the [X *or* Y *or* Z] axis
+- fBodyAngularVelocity[_Mean *or* _Std][.X *or* .Y *or* .Z] : Frequency domain body angular velocity signal [mean *or* standard deviation] along the [X *or* Y *or* Z] axis
 
-fBodyLinearAccelerationMagnitude[_Mean *or* _Std] : Frequency domain body linear acceleration combined 3-dimensional signal magnitude [mean *or* standard deviation]
+- fBodyLinearAccelerationMagnitude[_Mean *or* _Std] : Frequency domain body linear acceleration combined 3-dimensional signal magnitude [mean *or* standard deviation]
 
-fBodyLinearJerkMagnitude[_Mean *or* _Std] : Frequency domain body linear jerk combined 3-dimensional signal magnitude [mean *or* standard deviation]
+- fBodyLinearJerkMagnitude[_Mean *or* _Std] : Frequency domain body linear jerk combined 3-dimensional signal magnitude [mean *or* standard deviation]
 
-fBodyAngularVelocityMagnitude[_Mean *or* _Std] : Frequency domain body angular velocity combined 3-dimensional signal magnitude [mean *or* standard deviation]
+- fBodyAngularVelocityMagnitude[_Mean *or* _Std] : Frequency domain body angular velocity combined 3-dimensional signal magnitude [mean *or* standard deviation]
 
-fBodyAngularJerkMagnitude[_Mean *or* _Std] : Frequency domain body angular jerk combined 3-dimensional signal magnitude [mean *or* standard deviation]
+- fBodyAngularJerkMagnitude[_Mean *or* _Std] : Frequency domain body angular jerk combined 3-dimensional signal magnitude [mean *or* standard deviation]
