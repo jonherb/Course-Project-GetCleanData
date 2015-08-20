@@ -22,7 +22,7 @@ The "tidy.txt" file output was produced by the command:
 
 write.table(Tidy, file = "tidy.txt",  sep = "\t", row.names = FALSE)
 
-As the text file format does not provide easily viewable organization of the output, a tab separator was used in the write.table command so that if the the  is opened in Microsoft Excel rather than the default text editor program, columns will be clearly delineated, etc. Alternatively, if the file is in the working directory for R, it can be viewed with the commands
+As the text file format does not provide easily viewable organization of the output, a tab separator was used in the write.table command so that if the file is opened in Microsoft Excel, rather than the default text editor program, columns will be clearly delineated, etc. Alternatively, if the file is in the working directory for R, it can be viewed with the commands
 
 Tidy <- read.table("tidy.txt", header = TRUE)
 
