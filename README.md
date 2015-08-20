@@ -16,7 +16,7 @@ Next, the trainOrTest variable is converted into a factor, to label its levels a
 
 Next, a series of gsub commands is used to clean up and modify the measurement variable names (see CodeBook for details on the changes and the new names).
 
-Finally, the data.table package is utilized to group the data and compute, for each subjectID, the means of all the measurement variables on each activity for all the subject's executions of the activity. The data is grouped by subjectID and activity (with trainOrtest also being given as a grouping variable, so that it's not treated as a measurement variable in the grouping; but as it does not vary within subjectID, the groups are fully defined by subjectID and activity).
+Finally, the summarise_each function is used in conjunction with the group_by function to compute, for each subjectID, the means of all the measurement variables on each activity for all the subject's executions of the activity. The data is grouped by subjectID and activity (with trainOrtest also being given as a grouping variable, so that it's not treated as a measurement variable in the grouping; but as it does not vary within subjectID, the groups are fully defined by subjectID and activity).
 
 The "tidy.txt" file output was produced by the command:
 
@@ -25,6 +25,4 @@ write.table(Tidy.Table, file = "tidy.txt",  sep = "\t", row.names = FALSE)
 As the text file format does not provide easily viewable organization of the output, a tab separator was used in the write.table command so that if the the  is opened in Microsoft Excel rather than the default text editor program, columns will be clearly delineated, etc. Alternatively, if the file is in the working directory for R, it can be viewed with the commands
 
 Tidy <- read.table("tidy.txt", header = TRUE)
-
 View(Tidy)
-
