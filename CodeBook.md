@@ -28,7 +28,7 @@ As noted in the original README file, all variables are normalized to fall in [-
   - train
   - test
 
-- _Mean and _Std variables : The tidy dataset has 66 total measurement variables (33 _Mean and 33 _Std variables). These correspond to the mean or standard deviation of a value (linear acceleration, angular velocity, or jerk), with modifications to the original variable names as noted in the "Selected Variables" section. In the tidy dataset, the mean of the selected variables are taken, for each subject, across each activity. As the variable values are normalized to fall in [-1, 1], there are not measurement units.
+- _Mean and _Std variables : The tidy dataset has 66 total measurement variables (33 _Mean and 33 _Std variables). These correspond to, for each subjectID, the means of the _Mean or _Std variables (i.e., the means of the mean or standard deviation on a linear acceleration, angular velocity, or jerk signal) across multiple executions by the subject of a given activity. Modifications to the original variable names are as noted in the "Selected Variables" section. As the variable values are normalized to fall in [-1, 1], there are no measurement units.
 
 Below is a list of the variable name stems in the features_info.txt file, and what they have been changed to based on the modifications noted above.
 
