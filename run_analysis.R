@@ -51,18 +51,13 @@ names(Data) <- gsub("BodyGyro", "BodyAngularVelocity", names(Data))
 names(Data) <- gsub("AccJerk", "LinearJerk", names(Data))
 names(Data) <- gsub("Acc", "LinearAcceleration", names(Data))
 
+## Group data by subject ID and activity, and apply "mean" to all the measurement variables for all the 
+## resulting groups with summarise_each. (As trainOrTest does not vary within subjectID, in effect the 
+## groups are defined by subjectID and activity combinations, with the same six values of trainOrTest 
+## given for eachof the six rows of a given subjectID in the tidy dataset).
+Tidy <- group_by(Data, subjectID, activity, trainOrTest) %>% summarise_each("mean") %>% as.data.frame
 
+## write.table(Tidy, file = "tidy.txt",  sep = "\t", row.names = FALSE)
 
-library(data.table)
-Data.Table <- as.data.table(Data)
-## data.table functionality utilized to group data by subjectID and activity, and apply "mean" to all the measurement
-## variables for all the resulting groups. (As trainOrTest does not vary within subjectID, in effect the groups
-## are defined by subjectID and activity combinations, with the same six values of trainOrTest given for each
-## of the six rows of a given subjectID in the tidy dataset)
-Tidy.Table <- Data.Table[, lapply(.SD, mean), by = .(subjectID, activity, trainOrTest)]
-
-## write.table(Tidy.Table, file = "tidy.txt",  sep = "\t", row.names = FALSE)
 ## open tidy.txt file with Microsoft Excel instead of default text-editor program, for readable viewing,
-## or read into RStudio (and then View "Tidy" object) with Tidy <- read.table("tidy.txt", header = TRUE)
-
-
+## or read into R (and then View "Tidy" object) with Tidy <- read.table("tidy.txt", header = TRUE)
